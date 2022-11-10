@@ -16,7 +16,7 @@ const users = [
     ...range(5).map((i: number) => (
         {
             name: `user ${i}`,
-            email: `use${i}1@example.com`,
+            email: `user${i}@example.com`,
             username: `user${i}`,
             bio: `Hello I am User ${i}`,
             role: Roles.USER,
